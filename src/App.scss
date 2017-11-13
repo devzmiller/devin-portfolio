@@ -1,19 +1,17 @@
+body {
+  font-family: sans-serif;
+}
 
 .App-header {
   height: 150px;
   padding: 20px;
-  display: flex;
-}
-
-.App-title {
-  font-size: 1.5em;
+  h1 {
+    font-family: 'Philosopher', serif;
+    font-size: 3em;
+    text-align: center;
+  }
 }
 
 .App-intro {
   font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }

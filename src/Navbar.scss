@@ -1,5 +1,14 @@
 nav {
+  background-color: green;
+  ul {
+    display: block;
+    width: fit-content;
+    margin: auto;
+  }
   li {
+    color: white;
     list-style-type: none;
+    display: inline-block;
+    margin: 20px 50px 20px 0px;
   }
 }
