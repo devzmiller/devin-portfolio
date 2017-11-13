@@ -2,11 +2,19 @@ import React, { Component } from 'react';
 
 class Content extends Component {
   render() {
-    return (
-      <main>
-        Hi there
-      </main>
-    )
+    if (this.props.view === "about") {
+      return (
+        <main>
+          Hi there
+        </main>
+      )
+    } else if (this.props.view === "projects") {
+      return (
+        <main>
+          Cats
+        </main>
+      )
+    }
   }
 }
 

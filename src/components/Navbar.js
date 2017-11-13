@@ -6,8 +6,8 @@ class Navbar extends Component {
     return (
       <nav>
         <ul>
-          <li>About</li>
-          <li>Projects</li>
+          <li id='about' onClick={this.props.onClick}>About</li>
+          <li id='projects' onClick={this.props.onClick}>Projects</li>
         </ul>
       </nav>
     )
