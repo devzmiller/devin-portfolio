@@ -9,6 +9,14 @@
   padding-top: 30px;
   li {
     list-style-type: none;
+    cursor: pointer;
+    line-height: 3em;
+    color: #f24800;
+    padding-left: 10px;
+    margin-right: 20px;
+    &:hover {
+      background-color: #f8f9f4;
+    }
   }
 }
 
@@ -25,5 +33,10 @@
 
 .single-project-link {
   margin: 0px 10px;
-  color: green;
+  color: #f24800;
+  text-decoration: none;
+  padding: 10px;
+  &:hover {
+    background-color: #f8f9f4;
+  }
 }
