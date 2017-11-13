@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbar';
+import Content from './components/Content';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class App extends Component {
@@ -12,9 +12,7 @@ class App extends Component {
           <h1>Devin Miller</h1>
           <Navbar />
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Content />
       </div>
     );
   }
