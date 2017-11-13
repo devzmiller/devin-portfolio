@@ -6,6 +6,7 @@ nav {
     margin: auto; }
   nav li {
     color: white;
+    cursor: pointer;
     list-style-type: none;
     display: inline-block;
     margin: 20px 50px 20px 0px; }
