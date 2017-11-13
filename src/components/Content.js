@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import About from './About'
+import Projects from './Projects'
 
 class Content extends Component {
   render() {
@@ -12,7 +13,7 @@ class Content extends Component {
     } else if (this.props.view === "projects") {
       return (
         <main>
-          Cats
+          <Projects />
         </main>
       )
     }
