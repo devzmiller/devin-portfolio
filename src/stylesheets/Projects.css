@@ -1,0 +1,12 @@
+.projects {
+  width: 80%;
+  border: 1px solid orange;
+  margin: auto;
+  display: flex; }
+
+.project-links {
+  flex-basis: 30%;
+  border: 1px solid blue;
+  padding-top: 30px; }
+  .project-links li {
+    list-style-type: none; }

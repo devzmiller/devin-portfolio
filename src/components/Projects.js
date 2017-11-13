@@ -1,15 +1,20 @@
 import React, { Component } from 'react';
+import '../stylesheets/Projects.css'
+import ProjectLinks from './ProjectLinks'
 
 class Projects extends Component {
+  constructor() {
+    super();
+    this.state = {
+      currentProject: "docsforus"
+    }
+  }
+
   render() {
     return (
-      <div className="project-links">
-        <ul>
-          <li>DocsForUs</li>
-          <li>Mosaic Maker</li>
-          <li>Rutherford Rocket Labs</li>
-        </ul>
-      </div>
+      <section className="projects">
+        <ProjectLinks />
+      </section>
     )
   }
 }
