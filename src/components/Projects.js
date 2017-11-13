@@ -11,10 +11,14 @@ class Projects extends Component {
     }
   }
 
+  go(event) {
+    this.setState({currentProject: event.target.id})
+  }
+
   render() {
     return (
       <section className="projects">
-        <ProjectLinks />
+        <ProjectLinks onClick={(event) => this.go(event)}/>
         <ProjectCard project={this.state.currentProject} />
       </section>
     )

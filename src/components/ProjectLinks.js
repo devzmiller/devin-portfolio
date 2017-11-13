@@ -6,9 +6,9 @@ class ProjectLinks extends Component {
     return (
       <div className="project-links">
         <ul>
-          <li>DocsForUs</li>
-          <li>Mosaic Maker</li>
-          <li>Rutherford Rocket Labs</li>
+          <li id="docsforus" onClick={this.props.onClick}>DocsForUs</li>
+          <li id="mosaicmaker" onClick={this.props.onClick}>Mosaic Maker</li>
+          <li id="rutherford" onClick={this.props.onClick}>Rutherford Rocket Labs</li>
         </ul>
       </div>
     )
