@@ -11,7 +11,7 @@ class ProjectCard extends Component {
         <h2>{projectData[project]["title"]}</h2>
         <a className="single-project-link" href={projectData[project]['url']} target="_blank">Website</a>
         <a className="single-project-link" href={projectData[project]['github-url']} target="_blank">GitHub</a>
-        <img src={projectData[project]["image-path"]} className="project-image" alt="project screenshot"/>
+        <img src={process.env.PUBLIC_URL + projectData[project]["image-path"]} className="project-image" alt="project screenshot"/>
         <p>{projectData[project]['description']}</p>
         <p>Technologies used: {projectData[project]['technologies']}</p>
       </div>
