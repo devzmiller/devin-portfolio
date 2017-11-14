@@ -20,7 +20,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1>Devin Miller</h1>
+          <h1 id="home" onClick={(event) => this.go(event)}>Devin Miller</h1>
           <Navbar onClick={(event) => this.go(event)}/>
         </header>
         <Content view={this.state.view}/>
