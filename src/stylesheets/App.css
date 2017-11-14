@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  color: #444444; }
+
+.App-header {
+  padding: 20px;
+  background-image: url("/images/color-header.png");
+  background-size: 100%;
+  background-position: center;
+  font-family: 'Philosopher', serif;
+  color: black; }
+  .App-header h1 {
+    font-size: 3em;
+    text-align: center;
+    cursor: pointer; }
+
+.App-intro {
+  font-size: large; }
+
+main {
+  margin-top: 20px; }
+
+footer {
+  margin: 50px 0px 0px 40px;
+  width: 80%;
+  border-top: 1px solid #f24800;
+  padding: 20px; }

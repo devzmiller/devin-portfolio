@@ -1,18 +1,30 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './stylesheets/App.css';
+import Navbar from './components/Navbar';
+import Content from './components/Content';
 
+// eslint-disable-next-line react/prefer-stateless-function
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      view: "home"
+    }
+  }
+
+  go(event) {
+    this.setState({view: event.target.id})
+  }
+
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 id="home" onClick={(event) => this.go(event)}>Devin Miller</h1>
+          <Navbar onClick={(event) => this.go(event)}/>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Content view={this.state.view}/>
+        <footer>This website was created by Devin Miller, 2017. It uses ReactJS and Sass.</footer>
       </div>
     );
   }

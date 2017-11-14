@@ -1,0 +1,11 @@
+nav ul {
+  display: block;
+  width: fit-content;
+  margin: auto; }
+
+nav li {
+  font-size: 1.5em;
+  cursor: pointer;
+  list-style-type: none;
+  display: inline-block;
+  margin: 10px 50px 20px 0px; }
