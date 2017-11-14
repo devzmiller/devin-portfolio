@@ -5,7 +5,7 @@ body {
 
 .App-header {
   padding: 20px;
-  background-image: url("/images/color-header.png");
+  background-image: url("../images/color-header.png");
   background-size: 100%;
   background-position: center;
   font-family: 'Philosopher', serif;
