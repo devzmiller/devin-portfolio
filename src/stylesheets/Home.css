@@ -5,6 +5,14 @@ section.home {
   section.home h2 {
     text-align: center;
     margin-top: 30px; }
+  section.home #email-link {
+    font-weight: bold;
+    text-align: right;
+    margin: 10px; }
+    section.home #email-link a {
+      font-size: 1.2em;
+      color: #f24800;
+      text-decoration: none; }
 
 #card-container {
   display: flex;
@@ -12,10 +20,10 @@ section.home {
   margin: auto; }
 
 .list-card {
-  border: 1px solid green;
+  border: 1px solid #f24800;
   border-radius: 5px;
   width: 35%;
-  margin: 30px;
+  margin: 10px 30px;
   padding: 30px; }
   .list-card li {
     margin: 10px 0px; }

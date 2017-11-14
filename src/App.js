@@ -24,6 +24,7 @@ class App extends Component {
           <Navbar onClick={(event) => this.go(event)}/>
         </header>
         <Content view={this.state.view}/>
+        <footer>This website was created by Devin Miller, 2017. It uses ReactJS and Sass.</footer>
       </div>
     );
   }

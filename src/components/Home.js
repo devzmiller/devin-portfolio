@@ -9,6 +9,7 @@ class Home extends Component {
         <p>
           I'm Devin Miller, a web developer located in Seattle, WA. I'm a writer, whether it's poetry or documentation. I'm a history and comic book geek. My favorite rock in the world is on Vashon Island and my second favorite rock is the giant one next to the foot-bridge in Ravenna Park.
         </p>
+        <div id="email-link"><a href="mailto:devzmiller@gmail.com">Send me an email</a></div>
         <div id="card-container">
           <div id="technical-list" className="list-card">
             <h3>What I know how to do...</h3>
