@@ -2,10 +2,11 @@
   width: 80%;
   margin: auto;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .project-links {
-  flex-basis: 30%;
+  width: 30%;
   padding-top: 30px;
   li {
     list-style-type: none;
@@ -23,7 +24,7 @@
 .project-card {
   padding: 20px;
   line-height: 1.7em;
-  flex-basis: 65%;
+  width: 65%;
 }
 
 .project-image {
@@ -38,5 +39,20 @@
   padding: 10px;
   &:hover {
     background-color: #f8f9f4;
+  }
+}
+
+@media (max-width: 1024px) {
+  .projects {
+    width: 98%;
+    h3 {
+      margin-left: 10px;
+    }
+  }
+  .project-links {
+    width: 98%;
+  }
+  .project-card {
+    width: 98%;
   }
 }
