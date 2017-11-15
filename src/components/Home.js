@@ -5,7 +5,7 @@ class Home extends Component {
   render() {
     return (
       <section className="home">
-        <h2>Web Developer | Manager | Book Nerd</h2>
+        <h2>Software Developer | Manager | Book Nerd</h2>
         <p>
           I'm Devin Miller, a web developer located in Seattle, WA. I'm a writer, whether it's poetry or documentation. I'm a history and comic book geek. My favorite rock in the world is on Vashon Island and my second favorite rock is the giant one next to the foot-bridge in Ravenna Park.
         </p>
