@@ -13,7 +13,7 @@
     "github-url": "https://github.com/devzmiller/mosaicmaker",
     "technologies": "JavaScript, JQuery, Ruby, Sinatra",
     "description": "This app lets users choose colors to paint a tile mosaic, and save images of the mosaics they create. I built this app in a couple of days to practice my jQuery and learn how to create file saving functionality.",
-    "image-path": "#"
+    "image-path": "/images/mosaic-screenshot.png"
   },
   "rutherford": {
     "title": "Rutherford Rocket Labs",
