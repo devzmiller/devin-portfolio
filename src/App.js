@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import TransitionGroup from 'react-transition-group/TransitionGroup'
 import './stylesheets/App.css';
 import Navbar from './components/Navbar';
 import Content from './components/Content';
@@ -23,7 +24,7 @@ class App extends Component {
           <h1 id="home" onClick={(event) => this.go(event)}>Devin Miller</h1>
           <Navbar onClick={(event) => this.go(event)}/>
         </header>
-        <Content view={this.state.view}/>
+        <TransitionGroup component={Content} view={this.state.view}/>
         <footer>This website was created by Devin Miller, 2017. It uses ReactJS and Sass.</footer>
       </div>
     );
