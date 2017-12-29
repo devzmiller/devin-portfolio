@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './stylesheets/App.css';
 import Navbar from './components/Navbar';
 import Content from './components/Content';
+import githubLogo from './images/GitHub-Mark-64px.png'
 
 // eslint-disable-next-line react/prefer-stateless-function
 class App extends Component {
@@ -21,6 +22,10 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <h1 id="home" onClick={(event) => this.go(event)}>Devin Miller</h1>
+          <h2>Software Developer | Manager | Book Nerd</h2>
+          <div className="social-logos">
+            <img src={githubLogo} className="social-logo" alt="my github"/>
+          </div>
           <Navbar onClick={(event) => this.go(event)}/>
         </header>
         <Content view={this.state.view}/>
