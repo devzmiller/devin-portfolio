@@ -23,6 +23,8 @@ body {
     padding-top: 4.5%; }
   .App-header .social-logos {
     padding-top: 10%; }
+    .App-header .social-logos img {
+      padding: 0px 4px 0px 4px; }
 
 .App-intro {
   font-size: large; }
