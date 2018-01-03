@@ -30,7 +30,8 @@ body {
   font-size: large; }
 
 main {
-  margin-top: 20px; }
+  margin-top: 20px;
+  background-color: rgba(244, 245, 247, 0.97); }
 
 footer {
   margin: 50px 0px 0px 40px;

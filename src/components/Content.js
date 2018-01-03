@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import About from './About'
 import Projects from './Projects'
 import Home from './Home'
+import Contact from './Contact';
 
 class Content extends Component {
   render() {
@@ -21,6 +22,12 @@ class Content extends Component {
       return (
         <main>
           <Home />
+        </main>
+      )
+    } else if (this.props.view === "contact") {
+      return (
+        <main>
+          <Contact />
         </main>
       )
     }

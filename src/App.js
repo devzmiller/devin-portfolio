@@ -24,13 +24,12 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <h1 id="home" onClick={(event) => this.go(event)}>Devin Miller</h1>
-          <h2>Software Developer | Manager | Book Nerd</h2>
+          <Navbar onClick={(event) => this.go(event)}/>
           <div className="social-logos">
             <a href="mailto:devzmiller@gmail.com"><img src={emailLogo} className="social-logo" alt="my email"/></a>
             <a href="https://github.com/devzmiller" target="_blank"><img src={githubLogo} className="social-logo" alt="my github"/></a>
             <a href="https://www.linkedin.com/in/devzmiller/" target="_blank"><img src={linkedinLogo} className="social-logo" alt="my linkedin"/></a>
           </div>
-          <Navbar onClick={(event) => this.go(event)}/>
         </header>
         <Content view={this.state.view}/>
         <footer>This website was created by Devin Miller, 2017. It uses ReactJS and Sass.</footer>
