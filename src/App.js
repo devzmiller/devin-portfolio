@@ -28,7 +28,7 @@ class App extends Component {
 
         </header>
         <Content view={this.state.view}/>
-        <footer>This website was created by Devin Miller, 2017. It uses ReactJS and Sass.</footer>
+        <footer>This website was created by Devin Miller, 2017-2018. It uses ReactJS and Sass.</footer>
       </div>
     );
   }

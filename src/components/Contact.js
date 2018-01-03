@@ -3,6 +3,7 @@ import '../stylesheets/Contact.css'
 import githubLogo from '../images/GitHub-Mark-64px.png';
 import linkedinLogo from '../images/In-Black-66px-R.png';
 import emailLogo from '../images/mail-logo-70px.png';
+import resume from '../DevinMiller-Resume.pdf';
 
 class Contact extends Component {
   render() {
@@ -19,6 +20,9 @@ class Contact extends Component {
         <div className="social-logo">
           <a href="https://www.linkedin.com/in/devzmiller/" target="_blank"><img src={linkedinLogo} alt="my linkedin"/></a>
           <p>Connect with me on LinkedIn.</p>
+        </div>
+        <div className="resume-button">
+          <a href={resume} target="_blank">Download My Resume</a>
         </div>
       </div>
     )
