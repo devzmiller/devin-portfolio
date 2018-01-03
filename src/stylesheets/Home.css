@@ -6,6 +6,10 @@ section.home {
     text-align: center;
     margin-top: 30px; }
 
+#intro {
+  font-size: 1.1em;
+  text-align: center; }
+
 #card-container {
   display: flex;
   flex-wrap: wrap;

@@ -6,8 +6,8 @@ class Home extends Component {
     return (
       <section className="home">
         <h2>Hi, I'm Devin. I'm a <span className="dev">dev</span>eloper.</h2>
-        <p>
-          I'm Devin Miller, a web developer located in Seattle, WA. I'm a writer, whether it's poetry or documentation. I'm a history and comic book geek. My favorite rock in the world is on Vashon Island and my second favorite rock is the giant one next to the foot-bridge in Ravenna Park.
+        <p id="intro">
+          I'm a Seattleite through and through. I'm a writer, whether it's poetry or documentation. I'm a history and comic book geek. My favorite rock in the world is on Vashon Island and my second favorite rock is the giant one next to the foot-bridge in Ravenna Park.
         </p>
         <div id="card-container">
           <div id="technical-list" className="list-card">
