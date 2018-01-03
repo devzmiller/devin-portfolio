@@ -1,0 +1,14 @@
+.social-logos {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin: auto;
+}
+
+.social-logo {
+  justify-self: center;
+  align-self: end;
+  img {
+    display: block;
+    margin: auto;
+  }
+}

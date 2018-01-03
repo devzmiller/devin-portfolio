@@ -1,15 +1,25 @@
 import React, { Component } from 'react';
-import githubLogo from '../images/GitHub-Mark-32px.png';
-import linkedinLogo from '../images/In-Black-34px-TM.png';
-import emailLogo from '../images/2000px-Aiga_mail.svg.png';
+import '../stylesheets/Contact.css'
+import githubLogo from '../images/GitHub-Mark-64px.png';
+import linkedinLogo from '../images/In-Black-66px-R.png';
+import emailLogo from '../images/mail-logo-70px.png';
 
 class Contact extends Component {
   render() {
     return(
       <div className="social-logos">
-        <a href="mailto:devzmiller@gmail.com"><img src={emailLogo} className="social-logo" alt="my email"/></a>
-        <a href="https://github.com/devzmiller" target="_blank"><img src={githubLogo} className="social-logo" alt="my github"/></a>
-        <a href="https://www.linkedin.com/in/devzmiller/" target="_blank"><img src={linkedinLogo} className="social-logo" alt="my linkedin"/></a>
+        <div className="social-logo">
+          <a href="mailto:devzmiller@gmail.com"><img src={emailLogo} alt="my email"/></a>
+          <p>Send me an email.</p>
+        </div>
+        <div className="social-logo">
+          <a href="https://github.com/devzmiller" target="_blank"><img src={githubLogo} alt="my github"/></a>
+          <p>Explore my code on GitHub.</p>
+        </div>
+        <div className="social-logo">
+          <a href="https://www.linkedin.com/in/devzmiller/" target="_blank"><img src={linkedinLogo} alt="my linkedin"/></a>
+          <p>Connect with me on LinkedIn.</p>
+        </div>
       </div>
     )
   }
