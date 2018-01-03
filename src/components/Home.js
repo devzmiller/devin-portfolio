@@ -5,11 +5,10 @@ class Home extends Component {
   render() {
     return (
       <section className="home">
-        
+        <h2>Hi, I'm Devin. I'm a <span className="dev">dev</span>eloper.</h2>
         <p>
           I'm Devin Miller, a web developer located in Seattle, WA. I'm a writer, whether it's poetry or documentation. I'm a history and comic book geek. My favorite rock in the world is on Vashon Island and my second favorite rock is the giant one next to the foot-bridge in Ravenna Park.
         </p>
-        <div id="email-link"><a href="mailto:devzmiller@gmail.com">Send me an email</a></div>
         <div id="card-container">
           <div id="technical-list" className="list-card">
             <h3>What I know how to do...</h3>
@@ -27,7 +26,7 @@ class Home extends Component {
               <li>Women's work during World War II</li>
               <li>Diversity, inclusion, bias, microaggressions in the tech industry</li>
               <li>Why you should be buying the book, dress, or record player you want from Goodwill on eBay</li>
-              <li>The Unbeatable Squirrel Girl</li>
+              <li>Comics, especially the Unbeatable Squirrel Girl</li>
               <li>My cat, Oolong Kittea</li>
             </ul>
           </div>

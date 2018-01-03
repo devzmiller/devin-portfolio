@@ -7,30 +7,32 @@ body {
   background-size: 100%;
   background-attachment: fixed; }
 
+.dev {
+  color: #f24800; }
+
 .App-header {
   padding: 20px;
   font-family: 'Philosopher', serif;
   color: white;
   display: grid;
-  grid-template-columns: 30% 50% 20%; }
+  grid-template-columns: 30% 60%; }
   .App-header h1 {
     font-size: 4em;
     text-align: left;
     text-indent: 7%;
     letter-spacing: .05em;
     cursor: pointer; }
-  .App-header h2 {
+  .App-header nav {
+    justify-self: end;
     padding-top: 4.5%; }
-  .App-header .social-logos {
-    padding-top: 10%; }
-    .App-header .social-logos img {
-      padding: 0px 4px 0px 4px; }
 
 .App-intro {
   font-size: large; }
 
 main {
-  margin-top: 20px;
+  margin: auto;
+  width: 75%;
+  padding: 10px;
   background-color: rgba(244, 245, 247, 0.97); }
 
 footer {

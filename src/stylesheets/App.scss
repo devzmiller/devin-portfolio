@@ -8,12 +8,16 @@ body {
   background-attachment: fixed;
 }
 
+.dev {
+  color: #f24800;
+}
+
 .App-header {
   padding: 20px;
   font-family: 'Philosopher', serif;
   color: white;
   display: grid;
-  grid-template-columns: 30% 50% 20%;
+  grid-template-columns: 30% 60%;
   h1 {
     font-size: 4em;
     text-align: left;
@@ -21,14 +25,9 @@ body {
     letter-spacing: .05em;
     cursor: pointer;
   }
-  h2 {
+  nav {
+    justify-self: end;
     padding-top: 4.5%;
-  }
-  .social-logos {
-    padding-top: 10%;
-    img {
-      padding: 0px 4px 0px 4px;
-    }
   }
 }
 
@@ -37,7 +36,9 @@ body {
 }
 
 main {
-  margin-top: 20px;
+  margin: auto;
+  width: 75%;
+  padding: 10px;
   background-color: rgba(244, 245, 247, .97);
 }
 
