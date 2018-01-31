@@ -2,7 +2,7 @@
   "name": "devin-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://devzmiller.github.io/devin-portfolio",
+  "homepage": "https://devzportfolio.herokuapp.com",
   "dependencies": {
     "gh-pages": "^1.0.0",
     "react": "^16.1.1",
