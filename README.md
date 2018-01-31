@@ -1,7 +1,7 @@
 # Devin Miller - Portfolio
 
-My portfolio website.
+My portfolio website. Yay!
 
 ## Technologies
 
-React, Sass
+React, Sass.
