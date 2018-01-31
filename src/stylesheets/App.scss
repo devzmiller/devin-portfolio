@@ -2,19 +2,32 @@ body {
   font-family: sans-serif;
   margin: 0;
   color: #444444;
+  background-image: url('../images/164.JPG');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.dev {
+  color: #f24800;
 }
 
 .App-header {
   padding: 20px;
-  background-image: url('../images/color-header.png');
-  background-size: 100%;
-  background-position: center;
   font-family: 'Philosopher', serif;
-  color: black;
+  color: white;
+  display: grid;
+  grid-template-columns: 50% 50%;
   h1 {
-    font-size: 3em;
-    text-align: center;
+    font-size: 4em;
+    text-align: left;
+    text-indent: 7%;
+    letter-spacing: .05em;
     cursor: pointer;
+  }
+  nav {
+    justify-self: end;
+    padding-top: 4.5%;
   }
 }
 
@@ -23,12 +36,15 @@ body {
 }
 
 main {
-  margin-top: 20px;
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+  background-color: rgba(244, 245, 247, .97);
 }
 
 footer {
   margin: 50px 0px 0px 40px;
   width: 80%;
-  border-top: 1px solid #f24800;
   padding: 20px;
+  color: white;
 }

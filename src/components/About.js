@@ -7,7 +7,7 @@ class About extends Component {
       <section className="about">
         <h2>About Me</h2>
         <p>
-          Making useful things out of words and semicolons is my favorite form of magic. I get gleeful about a good debugging session. When I cook, I think, "how few times can I cross the kitchen and open the fridge", and when I code it’s the same story.
+          Making useful things out of words and semicolons is my favorite form of magic. I get gleeful about a good debugging session. When I cook, I think, "how few times can I cross the kitchen and open the fridge", and when I code it’s the same story. I'm looking for a position where I get to solve coding puzzles and learn something new every day.
         </p>
         <p>
           Circa age 12 I learned HTML so I could make a Harry Potter fan site, and I spent a summer making computer games after attending a camp that taught me how. But I always had too many interests to choose from, and during high school and college I focused on co-running a theatre program, learning German, and drafting novels. At University of Washington I got to write papers about internet culture, but I hadn’t yet found time to dive back into coding.

@@ -1,0 +1,24 @@
+.social-logos {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-row-gap: 30px;
+  margin: 30px auto 30px auto; }
+
+.social-logo {
+  justify-self: center;
+  align-self: end; }
+  .social-logo img {
+    display: block;
+    margin: auto; }
+
+.resume-button {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  text-align: center;
+  background-color: #42a1f4;
+  padding: 20px;
+  width: fit-content;
+  margin: auto; }
+  .resume-button a {
+    color: white;
+    text-decoration: none; }

@@ -1,33 +1,26 @@
 section.home {
-  width: 80%;
-  margin: auto;
   line-height: 1.5em;
   h2 {
     text-align: center;
     margin-top: 30px;
   }
-  #email-link {
-    font-weight: bold;
-    text-align: right;
-    margin: 10px;
-    a {
-      font-size: 1.2em;
-      color: #f24800;
-      text-decoration: none;
-    }
-  }
+}
+
+#intro {
+  font-size: 1.1em;
+  text-align: center;
 }
 
 #card-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 50% 50%;
   flex-wrap: wrap;
-  margin: auto;
 }
 
 .list-card {
+  justify-self: center;
   border: 1px solid #f24800;
   border-radius: 5px;
-  width: 35%;
   margin: 10px 30px;
   padding: 30px;
   li {
