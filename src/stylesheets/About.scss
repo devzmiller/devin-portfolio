@@ -5,3 +5,9 @@ section.about {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+@media only screen and (max-device-width: 959px) {
+  section.about {
+    width: 90%;
+  }
+}

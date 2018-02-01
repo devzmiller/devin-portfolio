@@ -2,10 +2,6 @@ body {
   font-family: sans-serif;
   margin: 0;
   color: #444444;
-  background-image: url('../images/164.JPG');
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-attachment: fixed;
 }
 
 .dev {
@@ -13,20 +9,19 @@ body {
 }
 
 .App-header {
-  padding: 20px;
+  padding: 10px;
   font-family: 'Philosopher', serif;
-  color: white;
-  display: grid;
-  grid-template-columns: 50% 50%;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
   h1 {
     font-size: 4em;
-    text-align: left;
-    text-indent: 7%;
     letter-spacing: .05em;
     cursor: pointer;
   }
   nav {
-    justify-self: end;
     padding-top: 4.5%;
   }
 }
@@ -47,4 +42,28 @@ footer {
   width: 80%;
   padding: 20px;
   color: white;
+}
+
+@media only screen and (min-device-width: 960px) {
+  body {
+    background-image: url('../images/164.JPG');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+  }
+}
+
+@media only screen and (max-device-width: 959px) {
+  body {
+    background-color: #59A2D9;
+  }
+
+  main {
+    width: 90%;
+  }
+
+  footer {
+    width: 90%;
+    margin: 20px auto 0px auto;
+  }
 }
