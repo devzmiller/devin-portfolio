@@ -13,16 +13,10 @@
   }
 }
 
-.resume-button {
-  text-align: center;
-  display: flex;
-  justify-content: center;
+#license {
+  font-size: .7em;
+  text-align: right;
   a {
-    display: block;
-    background-color: #42a1f4;
-    padding: 20px;
-    width: fit-content;
-    color: white;
-    text-decoration: none;
+    color: black;
   }
 }

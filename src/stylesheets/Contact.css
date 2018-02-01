@@ -9,14 +9,8 @@
   display: block;
   margin: auto; }
 
-.resume-button {
-  text-align: center;
-  display: flex;
-  justify-content: center; }
-  .resume-button a {
-    display: block;
-    background-color: #42a1f4;
-    padding: 20px;
-    width: fit-content;
-    color: white;
-    text-decoration: none; }
+#license {
+  font-size: .7em;
+  text-align: right; }
+  #license a {
+    color: black; }
