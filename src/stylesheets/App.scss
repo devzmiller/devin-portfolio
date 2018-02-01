@@ -2,10 +2,6 @@ body {
   font-family: sans-serif;
   margin: 0;
   color: #444444;
-  background-image: url('../images/164.JPG');
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-attachment: fixed;
 }
 
 .dev {
@@ -48,6 +44,17 @@ footer {
   color: white;
 }
 
-@media (max-width: 1000px) {
+@media only screen and (min-device-width: 960px) {
+  body {
+    background-image: url('../images/164.JPG');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+  }
+}
 
+@media only screen and (max-device-width: 959px) {
+  body {
+    background-color: #59A2D9;
+  }
 }
