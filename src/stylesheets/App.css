@@ -11,19 +11,18 @@ body {
   color: #f24800; }
 
 .App-header {
-  padding: 20px;
+  padding: 10px;
   font-family: 'Philosopher', serif;
   color: black;
-  display: grid;
-  grid-template-columns: 50% 50%; }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline; }
   .App-header h1 {
     font-size: 4em;
-    text-align: left;
-    text-indent: 7%;
     letter-spacing: .05em;
     cursor: pointer; }
   .App-header nav {
-    justify-self: end;
     padding-top: 4.5%; }
 
 .App-intro {
