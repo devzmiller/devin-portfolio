@@ -13,7 +13,7 @@ body {
 .App-header {
   padding: 20px;
   font-family: 'Philosopher', serif;
-  color: white;
+  color: black;
   display: grid;
   grid-template-columns: 50% 50%; }
   .App-header h1 {
