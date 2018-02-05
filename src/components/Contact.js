@@ -16,20 +16,20 @@ class Contact extends Component {
             <p>Send me an email.</p>
           </div>
           <div className="social-logo">
-            <a href="https://github.com/devzmiller" target="_blank"><img src={githubLogo} alt="my github"/></a>
+            <a href="https://github.com/devzmiller" target="_blank" rel="noopener noreferrer"><img src={githubLogo} alt="my github"/></a>
             <p>Explore my code on GitHub.</p>
           </div>
           <div className="social-logo">
-            <a href="https://www.linkedin.com/in/devzmiller/" target="_blank"><img src={linkedinLogo} alt="my linkedin"/></a>
+            <a href="https://www.linkedin.com/in/devzmiller/" target="_blank" rel="noopener noreferrer"><img src={linkedinLogo} alt="my linkedin"/></a>
             <p>Connect with me on LinkedIn.</p>
           </div>
           <div className="social-logo">
-            <a href={resume} target="_blank"><img src={resumeLogo} alt="my resume (PDF)"/></a>
+            <a href={resume} target="_blank" rel="noopener noreferrer"><img src={resumeLogo} alt="my resume (PDF)"/></a>
             <p>Download my resume.</p>
           </div>
         </div>
         <div id="license">
-          <a href="https://www.iconfinder.com/icons/2530001/cv_document_employee_hiring_portfolio_profile_resume_icon_icon#size=64">Resume icon</a> by <a href="https://www.iconfinder.com/Louiseme">Eva Kufulium</a> is licensed under <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>
+          <a href="https://www.iconfinder.com/icons/2530001/cv_document_employee_hiring_portfolio_profile_resume_icon_icon#size=64" target="_blank" rel="noopener noreferrer">Resume icon</a> by <a href="https://www.iconfinder.com/Louiseme" target="_blank" rel="noopener noreferrer">Eva Kufulium</a> is licensed under <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">CC BY 3.0</a>
         </div>
       </section>
     )

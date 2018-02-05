@@ -28,7 +28,8 @@ main {
   margin: auto;
   width: 75%;
   padding: 10px;
-  background-color: rgba(244, 245, 247, 0.97); }
+  background-color: rgba(244, 245, 247, 0.97);
+  border-radius: 10px; }
 
 footer {
   margin: 50px 0px 0px 40px;
@@ -50,4 +51,11 @@ footer {
     width: 90%; }
   footer {
     width: 90%;
-    margin: 20px auto 0px auto; } }
+    margin: 20px auto 0px auto; }
+  .App-header {
+    justify-content: center; }
+    .App-header h1 {
+      font-size: 3.2em;
+      height: .4em; }
+    .App-header nav {
+      padding-top: 5px; } }
