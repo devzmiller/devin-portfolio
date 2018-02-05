@@ -12,7 +12,8 @@ class Projects extends Component {
   }
 
   go(event) {
-    this.setState({currentProject: event.target.id})
+    this.setState({currentProject: event.target.id});
+    window.scrollTo(0,0);
   }
 
   render() {
