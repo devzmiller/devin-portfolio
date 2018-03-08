@@ -13,10 +13,10 @@ class Home extends Component {
           <div id="technical-list" className="list-card">
             <h3>What I know how to do...</h3>
             <ul>
-              <li>Languages: Ruby, JavaScript, Python, HTML, CSS, SQL</li>
-              <li>Frameworks & Libraries: Ruby on Rails, Sinatra, JQuery, AJAX, ReactJS</li>
-              <li>Databases: PostgreSQL, SQLite3</li>
-              <li>Workflows: Agile development, pair programming, constructive feedback</li>
+              <li>Languages: Ruby, JavaScript, Python, HTML, CSS/SASS, SQL</li>
+              <li>Frameworks & Libraries: Ruby on Rails, Sinatra, JQuery, AJAX, React.js, Node.js, Express.js, GraphQL</li>
+              <li>Databases: PostgreSQL, SQLite3, MongoDB</li>
+              <li>Workflows: Agile development, pair programming, constructive feedback, test-driven development</li>
               <li>Git, GitHub, Heroku, CircleCI</li>
             </ul>
           </div>

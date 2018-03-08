@@ -1,4 +1,12 @@
 {
+  "proto": {
+    "title": "ProtoCards",
+    "url": "#",
+    "github-url": "https://github.com/ProtoCards/proto-backend",
+    "technologies": "JavaScript, Node.js, Express.js, MongoDB, GraphQL, React, Redux",
+    "description": "I'm currently working on this app as part of a team for She's Coding's two-month long Codeathon. The app is designed to make it easier to develop card games. Users can import card data from a CSV file or start from scratch, and bulk update different features of the cards. They can then print the cards for playtesting, or export the card data back to CSV. I've been responsible for building the backend, from database design to the GraphQL API, as well as testing the backend and parsing CSV files.",
+    "image-path": "/images/proto-dev.png"
+  },
   "docsforus": {
     "title": "DocsForUs",
     "url": "http://docs-for-us.herokuapp.com",
